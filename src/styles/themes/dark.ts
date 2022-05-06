@@ -11,6 +11,6 @@ export default {
       links: '#48D06D',
       icons: '#bd93f9',
       textSpan: '#fff',
-      menu: '#0c0c0c'
+      menu: '#0c0c0c',
     },
   }
