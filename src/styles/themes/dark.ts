@@ -2,12 +2,12 @@ export default {
     title: 'dark',
   
     colors: {
-      primary: '#d99014',
+      primary: '#0c0c0c',
       secondary: '#1B264F',
   
-      background: '#252525',
+      background: '#222222',
       text: '#fff',
-      border: '#48D06D',
+      border: '#0e4ba4',
       links: '#48D06D',
       icons: '#bd93f9',
       textSpan: '#fff'

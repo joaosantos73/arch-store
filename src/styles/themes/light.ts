@@ -7,7 +7,7 @@ export default {
 
     background: '#f5f5f5',
     text: '#333',
-    border: '#1B264F',
+    border: '#b17818',
     links: '#D79D39',
     icons: '#1B264F',
     textSpan: '#fff'

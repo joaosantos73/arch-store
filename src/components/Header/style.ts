@@ -9,14 +9,9 @@ export const Container = styled.div`
   justify-content: space-between;
   padding: 0 30px;
   width: 100%;
-  .logo {
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
-    letter-spacing: -0.02em;
-	  line-height: 75%;
-	  text-shadow: 0px 2px 3px #555;
+  border-top: 5px solid ${props => props.theme.colors.border};
+  img {
+    margin-top: 4px;
   }
   .dark-mode {
     display: flex;
@@ -24,5 +19,17 @@ export const Container = styled.div`
   }
   .dark-mode p {
     padding: 10px;
+  }
+`;
+
+export const Logo = styled.div`
+  display: flex;
+
+  h1 {
+    margin-left: 7px;
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e3e2e2;
+    cursor: context-menu;
   }
 `;

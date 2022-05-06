@@ -4,7 +4,7 @@ import { ThemeContext } from 'styled-components';
 import { shade } from 'polished';
 import logo from '../../assets/logo.png'
 
-import { Container } from './style';
+import { Container, Logo } from './style';
 
 interface Props {
   toogleTheme(): void;
@@ -15,8 +15,10 @@ const Header: React.FC<Props> = ({ toogleTheme }) => {
 
   return (
     <Container>
-      <img src={logo} width={90} height={40} alt="ArchStore"/>
-
+      <Logo>
+        <img src={logo} width={90} height={40} alt="ArchStore"/>
+        <h1>Store</h1>
+      </Logo>
       <div className="dark-mode">
         <p>Dark mode</p>
         <Switch

@@ -20,7 +20,7 @@ function App() {
         <GlobalStyle />
         <Header toogleTheme={toogleTheme}/>
         <div className="content">
-          Oi
+          
         </div>
 
       </ThemeProvider>
