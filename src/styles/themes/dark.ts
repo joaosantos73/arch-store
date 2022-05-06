@@ -10,6 +10,7 @@ export default {
       border: '#0e4ba4',
       links: '#48D06D',
       icons: '#bd93f9',
-      textSpan: '#fff'
+      textSpan: '#fff',
+      menu: '#0c0c0c'
     },
   }

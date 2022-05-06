@@ -6,6 +6,7 @@ import light from './styles/themes/light';
 import dark from './styles/themes/dark';
 import GlobalStyle from './styles/global';
 import Header from './components/Header';
+import Categories from './components/Categories';
 
 function App() {
   const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', light);
@@ -19,6 +20,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Header toogleTheme={toogleTheme}/>
+        <Categories />
         <div className="content">
           
         </div>

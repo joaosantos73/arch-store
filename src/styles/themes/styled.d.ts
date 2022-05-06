@@ -14,7 +14,8 @@ declare module 'styled-components' {
       border: string,
       links: string,
       icons: string,
-      textSpan: string
+      textSpan: string,
+      menu: string
     },
   }
 }
