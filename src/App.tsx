@@ -21,8 +21,8 @@ function App() {
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Header toogleTheme={toogleTheme}/>
-        {/* <Home /> */}
-        <Register />
+        <Home />
+        {/* <Register /> */}
       </ThemeProvider>
     </div>
   );
