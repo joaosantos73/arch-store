@@ -46,6 +46,13 @@ export const Container = styled.div`
             width: 80%;
         }
 
+        .title {
+            width: 80%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
         .description {
             font-size: 10px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

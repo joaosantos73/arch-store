@@ -10,6 +10,11 @@ export const Container = styled.div`
   padding: 0 30px;
   width: 100%;
   border-top: 5px solid ${props => props.theme.colors.border};
+
+  a {
+    text-decoration: none;
+  }
+
   img {
     margin-top: 4px;
   }
@@ -20,6 +25,15 @@ export const Container = styled.div`
   .dark-mode p {
     padding: 10px;
   }
+
+  .cart {
+    margin-right: 5px;
+  }
+
+  span {
+      margin-left: 3px;
+      margin-bottom: 15px;
+    }
 `;
 
 export const Logo = styled.div`

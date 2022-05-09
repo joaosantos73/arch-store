@@ -13,7 +13,7 @@ const CategoriesPage: React.FC = () => {
     return (
         <Container>
             <Categories />
-            <Products />
+            <Products category={category.name}/>
         </Container>
     )
 };

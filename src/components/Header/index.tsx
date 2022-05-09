@@ -2,7 +2,8 @@ import React, { useContext } from 'react';
 import Switch from 'react-switch';
 import { ThemeContext } from 'styled-components';
 import { shade } from 'polished';
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.png';
+import { MdAddShoppingCart } from 'react-icons/md';
 
 import { Container, Logo } from './style';
 
@@ -15,11 +16,19 @@ const Header: React.FC<Props> = ({ toogleTheme }) => {
 
   return (
     <Container>
-      <Logo>
-        <img src={logo} width={90} height={40} alt="ArchStore"/>
-        <h1>Store</h1>
-      </Logo>
+        <a href="/categories/mens-fashion">
+          <Logo>
+            <img src={logo} width={90} height={40} alt="ArchStore"/>
+            <h1>Store</h1>
+          </Logo>
+        </a>
       <div className="dark-mode">
+        
+        <div className='cart'>
+          <MdAddShoppingCart size={20}/>
+          <span>0</span>
+        </div>
+
         <p>Dark mode</p>
         <Switch
           onChange={toogleTheme}
