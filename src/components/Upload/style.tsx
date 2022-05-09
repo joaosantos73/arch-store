@@ -19,7 +19,6 @@ export const DropContainer = styled.div<DropProps>`
     cursor: pointer;
     margin-top: 20px;
     transition: height 0.2s ease;
-
     ${props => props.isDragActive && dragActive};
     ${props => props.isDragReject && dragReject};
 `;

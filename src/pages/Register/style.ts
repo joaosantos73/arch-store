@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    margin: 95px;
+    margin: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +21,15 @@ export const Container = styled.div`
         }
 
         input {
+            padding: 7px;
+            /* margin: 7px; */
+            width: 100%;
+            border: 1px solid #c5c5c5;
+            border-radius: 7px;
+            font-style: italic;
+        }
+
+        select {
             padding: 7px;
             /* margin: 7px; */
             width: 100%;

@@ -13,7 +13,10 @@ const Categories: React.FC = () => {
                    <li><a href="#">Acessorios  ⮕</a></li>
                    <li><a href="#">Quadros  ⮕</a></li>
                </ul>
-           </div>
+               <a href="/register" className='button-register'>
+                    Crie um novo produto
+                </a>
+            </div>
        </Container>
     )
 };

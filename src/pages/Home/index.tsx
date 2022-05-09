@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import Categories from '../../components/Categories';
 import Products from '../../components/Products';
 import { Container } from './style';
