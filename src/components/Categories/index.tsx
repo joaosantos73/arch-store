@@ -7,11 +7,11 @@ const Categories: React.FC = () => {
            <div className='menu-categories'>
                <h1>Categorias</h1>
                <ul>
-                   <li><a href="#">Camisetas  ⮕</a></li>
-                   <li><a href="#">Canecas  ⮕</a></li>
-                   <li><a href="#">Livros  ⮕</a></li>
-                   <li><a href="#">Acessorios  ⮕</a></li>
-                   <li><a href="#">Quadros  ⮕</a></li>
+                   <li><a href="/categories/camisetas">Camisetas  ⮕</a></li>
+                   <li><a href="/categories/canecas">Canecas  ⮕</a></li>
+                   <li><a href="/categories/livros">Livros  ⮕</a></li>
+                   <li><a href="/categories/accessorios ">Acessorios  ⮕</a></li>
+                   <li><a href="/categories/quadros">Quadros  ⮕</a></li>
                </ul>
                <a href="/register" className='button-register'>
                     Crie um novo produto
